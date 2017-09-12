@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/header-footer.css"/>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" href="iconfont/iconfont.css" />
+		<link rel="stylesheet" href="css/shopcar.css" />
+		<script type="text/javascript" src="js/jquery-1.11.1.min.js" ></script>
+	</head>
+	<body style="background: #F5F5F5;">
+		<div class="shopcar-header">
+			<div class="shopcar-logo">
+				<i class="iconfont">&#xe975;</i>
+			</div>
+			<ul class="shopcar-list">
+				<li>购物车</li>
+				<li>确认订单</li>
+				<li>在线支付</li>
+				<li>完成</li>
+			</ul>
+			
+		</div>
+		<div class="shopcar">
+			<table class="cart-header">
+				<tr class="cart-table-first">
+					<td class="cart-col-select">
+						<input type="checkbox" class="cartcheck selectAll" />
+						全选</td>
+					<td class="cart-col-name">商品</td>
+					<td class="cart-col-price">单价(元)</td>
+					<td class="cart-col-number">数量</td>
+					<td class="cart-col-total">小计(元)</td>
+					<td class="cart-col-ctrl">操作</td>
+				</tr>
+					<!--<tr>
+					<td class="cart-col-select">
+							<input type="checkbox" class="cartcheck magin" />
+							<img src="img/main/figure11.png"/>
+					</td>
+					<td class="cart-col-name">
+						<a href="#">
+							<p>魅蓝 Note5</p>
+							<span>全网通公开版 香槟金 32GB</span>
+						</a>
+					</td>
+					<td class="cart-col-price">
+						<b>￥1999.00</b>
+					</td>
+					<td >
+						<div class="mz-adder">
+							<a href="javascript:;" class="up">-</a >
+							<span>1</span>
+							<a href="javascript:;" class="down">+</a>
+						</div>
+					</td>
+					<td class="cart-col-total" >
+						<p>￥1099.00</p>
+					</td>
+					<td class="cart-col-ctrl">
+						<a href="javascript:;"></a>
+					</tr>-->
+			</table>
+		</div>
+		<div class="Settlement">
+			<div class="Settlement-left">
+				<input type="checkbox" class="cartcheck  magin selectAll"  />全选
+			</div>
+			<div class="Settlement-right">
+				<span class="total-text"> 合计(不含运费)：
+					<span class="total-red">￥0.00</span>
+				</span>
+				<a href="javascript:;" class="Submit-bill">去结算</a>
+			</div>
+		</div>
+		<div id="footer"></div>
+	</body>
+</html>
+<script type="text/javascript" src="js/cookie.js" ></script>
+<script type="text/javascript" src="js/index.js" ></script>
+<script type="text/javascript" src="js/shopCar.js" ></script>

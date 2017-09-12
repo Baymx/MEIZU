@@ -1,0 +1,325 @@
+/*header*/
+#header{
+	width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 20;
+}
+.logo{
+	float: left;
+	display: block;
+	height: 96px;
+	line-height: 96px;
+	margin-left: 30px;
+}
+.logo i{
+	color: #32A5E7;
+	font-size: 25px;
+}
+.menu {
+	float: right;
+	height: 96px;
+	list-style: none;
+}
+.menu-li{
+	font-size: 15px;
+	float: left;
+	height: 96px;
+	width: 82px;
+	line-height: 96px;
+	text-align: center;
+}
+.menu-li a{
+	color: #666;
+}
+.menu-li i{
+	font-size: 22px;
+}
+.menu-li:hover .menu-li a{
+	color:#59ACFF;
+}
+.count{
+	color: red;
+	position: relative;
+	left: -15px;
+	top: -12px;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+ .drop-down{
+	display: none;
+	position: absolute;
+	width: 100%;
+	background: #FFF;
+	height: 210px;
+	left: 0;
+	top: 0;
+	margin: 0 auto;
+	z-index: -1;
+	overflow: hidden;
+}
+.meizu{
+	text-align: center;
+	margin-top: 96px;
+	height: 116px;
+	margin-left: 300px;
+	width: 1024px;
+	position: relative;
+}
+.meilan {
+	text-align: center;
+	margin-top: 96px;
+	height: 116px;
+	width: 1024px;
+	margin-left: 100px;
+	position: relative;
+}
+.Headset{
+	text-align: center;
+	margin-top: 96px;
+	height: 116px;
+	width: 1024px;
+	margin-left: 250px;
+	position: relative;
+}
+.parts{
+	text-align: center;
+	margin-top: 96px;
+	height: 116px;
+	width: 1024px;
+	margin-left: 250px;
+	position: relative;
+}
+.drop-down-li {
+	height: 100%;
+	width: 100px;
+	float: left;
+	display: block;
+	margin-left: 80px;
+	
+}
+.drop-down-li a{
+	display: block;
+	height: 100%;
+	width: 100px;
+	line-height: 20px;
+	color: #000;
+	font-size: 13px;
+	position: absolute;
+}
+.drop-down-li a img{
+	display: block;
+	
+}
+.drop-down-li p{
+	height: 20px;
+	width: 100%;
+}
+.mark{
+	display: block;
+	position: absolute;
+	background: rgba(255,255,255,.5);
+	height: 100%;
+	width: 100%;
+	top:0;
+	left: 0;
+}
+/*轮播图样式*/
+.Carousel {
+	height: 680px;
+	width: 100%;
+	overflow: hidden;
+	/*position: relative;*/
+}
+.Carousel ul{
+    height: 680px;
+    z-index: 1;
+   position: relative;
+}
+.Carousel ul li{
+	position: absolute;
+	left: 1920px;
+	top: 0;
+}
+.Carousel  img{
+	margin-left: -300px;
+}
+.Carousel  ol{
+	height: 30px;
+	width: 180px;
+	z-index: 10;
+	position: relative;
+	bottom: 30px;
+	left: 50%;
+	margin-left: -75px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.Carousel  ol li {
+	height: 10px;
+	width: 10px;
+	display: block;
+	float: left;
+	border-radius:50%;
+	background: #666666;
+	margin-right: 20px;
+	
+}
+.Carousel  ol li.active{
+	height: 15px;
+	width: 15px;
+}
+/*footer底部*/
+#footer{
+	margin-top: 30px;
+	background: #FFFFFF;
+}
+.meizu-footer-wrap{
+	box-sizing: border-box;
+	height: 200px;
+	width:1280px;
+	padding: 60px 0 20px;
+    border-top: 1px solid #f1f1f1;
+}
+.meizu-row{
+	width:1280px;
+}
+.meizu-footer-service{
+	width: 1000px;
+    float: left;
+    margin-left:15px ;
+}
+.meizu-footer-service li{
+	height: 58px;
+	width: 240px;
+	float: left;
+	line-height: 58px;
+}
+.meizu-footer-service li a {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	color: #999999;
+	font-size: 10px;
+}
+.onlive-server{
+	float: right;
+	margin-right: 40px;
+}
+.onlive-server span{
+	 color: #999;
+    font-size: 12px;	 
+}
+.onlive-server p{
+	color: #00c3f5;
+    font-size: 20px;
+    font-weight: 400	 
+}
+.onlive-server a{
+	width: 130px;
+    height: 40px;
+    background-color: #00c3f5;
+    overflow: hidden;
+    position: relative;
+    line-height: 40px;
+    color: #fff;
+    border-radius: 2px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-around;
+}
+.onlive-server a i{
+	font-size: 22px;
+}
+.line{
+	margin: 16px auto 28px;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #eee;
+    padding: 0;
+    width: 1240px;
+ }
+.footer-info{
+	height: 60px;
+	width: 1280px;
+}
+.meizu-row-link{
+	height: 20px;
+	width: 1000px;
+	margin-left: 20px;
+}
+.meizu-row-link li{
+	float: left;
+	border-right: 1px #CCCCCC solid;
+}
+.meizu-row-link li a{
+	color: #999999;
+	font-size:10px ;
+	display: block;
+	line-height: 18px;
+	margin-right: 20px;
+	margin-left: 20px;
+	text-align: center;
+	
+}
+.meizu-row-link li a:hover{
+	color: #6AA5E7;
+}
+#no-border{
+	border-right: none;
+	color: #404040;
+}
+#no-border i{
+	color: red;
+}
+.footer-info p{
+	margin-top: 10px;
+	margin-left: 40px;
+	color: #999999;
+	font-size: 12px;
+	float: left;
+}
+.footer-info a{
+	color: #999999;
+}
+.footer-info a:hover{
+	color: #6AA5E7;
+}
+.footer-last-link{
+	height: 20px;
+	width: 150px;
+	float: right;
+	display: flex;
+	margin-right: 30px;
+}
+.footer-last-link a{
+	display: block;
+	width: 50px;
+}
+.footer-last-link a i{
+	font-size:25px ;
+}
+#last-link-two img{
+	display: none;
+	height: 160px;
+	width: 160px;
+	position: relative;
+	top: -200px;
+	left: -70px;
+}
+#last-link-one :hover{
+	color: #FFC7C7;
+}
+#last-link-two:hover {
+	color: #A7DD90;
+}
+#last-link-two:hover img{
+	display: block;
+}
+#last-link-three:hover {
+	color: #EDC847;
+}
+

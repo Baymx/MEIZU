@@ -1,0 +1,313 @@
+/*魅族商城的css*/
+/*头部广告*/
+.top-ad{
+	width: 1280px;
+	margin: 0 auto;
+}
+.top-ad img{
+	margin-left: -300px;
+}
+.close{
+	height: 21px;
+	width: 21px;
+	position: absolute;
+	right: -280px;
+	top: 10px;
+}
+/*banner的轮播图的css*/
+.mall-banner{
+	width: 1280px;
+	margin: 0 auto;
+	height:480px;
+	position: relative;
+	top: 96px;
+}
+.banner-image img{
+	position: absolute;
+	margin-left: -330px;
+}
+.banner-index{
+	width: 80px;
+	height: 10px;
+	position: absolute;
+	z-index: 2;
+	top: 450px;
+	left: 50%;
+	margin-left: -40px;
+	display: flex;
+	justify-content: space-around;
+}
+.banner-index li{
+	height: 8px;
+	width: 8px;
+	float: left;
+	border: 1px #666 solid;
+	border-radius: 50%;
+}
+.index-active{
+	background: #00C3F5;
+}
+/*菜单*/
+.mall-nav{
+	padding-top:25px;
+	height: 480px;
+	width: 250px;
+	position: absolute;
+	background: rgba(248,247,247,.8);
+	/*opacity: 0.5;*/
+	z-index: 10;
+	left: 50px;
+	list-style: none;
+	box-sizing: border-box;
+}
+.mall-nav>li>a{
+	
+	display: block;
+	color: #000;
+	height: 55px;
+	width: 250px;
+	line-height: 60px;
+	text-align: center;
+}
+.mall-nav li a:hover{
+	background: #fff;
+}
+/*下拉可视菜单效果*/
+.Subordinate-menu{
+	display: none;
+	height: 480px;
+	width: 370px;
+	position: absolute;
+	z-index: 2;
+	background: #FFFFFF;
+	top: 0px;
+	left: 250px;
+	padding: 15px;
+	box-sizing: border-box;
+}
+.child-title{
+	margin: 0 auto;
+	display: block;
+	height: 40px;
+	width: 320px;
+	line-height: 40px;
+	color:#333;
+	font-size: 14px;
+    border-bottom: 1px solid #F5F5F5;
+}
+.child-title i{
+	float: right;
+	color:#ccc;
+	font-size: 14px;
+}
+.child-content {
+	margin-top:15px ;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.child-content a{
+	display: block;
+	height: 40px;
+	width: 150px;
+	display: flex;
+	align-items: center;
+	color: #666;
+	font-size:12px ;
+	margin-bottom: 20px;
+}
+.child-content a img{
+	display: block;
+	height: 40px;
+	width: 40px;
+}
+.child-content a span{
+	margin-left: 10px;
+}
+/*banner-link*/
+.banner-link{
+	height: 155px;
+	width: 1280px;
+	bottom: 0;
+	margin-top: 96px;
+}
+.banner-link a{
+	float: left;
+	margin: 5px 4px;
+}
+.banner-link a img{
+	height: 140px;
+	width: 245px;
+}
+/*热门推荐*/
+.Recommend{
+	height: 400px;
+	width: 1240px;
+	margin: 0 auto;
+	padding-top:20px ;
+	overflow: hidden;
+}
+.Recommend_header{
+	width: 1240px;
+	height: 31px;
+	
+}
+.Recommend_header h2{
+	font-weight: normal;
+	float: left;
+}
+.Recommend_header span{
+	text-align: center;
+	line-height: 30px;
+	float: right;
+	margin-right: 10px;
+	height: 30px;
+	width: 30px;
+	border: 1px #999 solid;
+}
+.Recommend-pic{
+	height: 340px;
+	width: 2600px;
+	margin-top:15px;
+	position: relative;
+}
+.Recommend-pic li {
+	float: left;
+}
+.Recommend-pic li a{
+	display:block;
+	height: 338px;
+	width: 249px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px #EEE solid;
+}
+.Recommend-pic li a:hover{
+	border: 1px #999 solid;
+}
+.Recommend-pic li a img{
+	display: block;
+	height: 180px;
+	width: 180px;
+	margin: 40px 0;
+}
+.Recommend-pic li a h4{
+	 font-size: 14px;
+	 color: #555757;
+}
+.Recommend-pic li a h5{
+	 font-size: 12px;
+	 color: #999;
+	 margin: 5px 0;
+}
+.price-span {
+	 color:#e02b41;
+	 font-size: 14px;
+}
+/*楼梯广告*/
+.floor-ad{
+	width: 1280px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 40px;
+	margin-top: 30px;
+}
+.main{
+	background:#F5F5F5 ;
+}
+/*手机*/
+.Mall-shop{
+	height: 750px;
+	width: 1240px;
+	margin: 0 auto;
+	background: #F5F5F5;
+	padding-top:30px ;
+}
+.Mall-shop-title{
+	width: 1200px;
+	margin: 0 auto;
+	
+}
+.Mall-shop-title h2{
+	font-weight:normal ;
+	float: left;
+} 
+.Mall-shop-nav{
+	float: left;
+}
+.Mall-shop-nav a{
+	margin-left: 30px;
+    line-height: 30px;
+    font-size: 13px;
+    padding-bottom: 3px;
+    font-size: 15px;
+    color: #000000;
+}
+/*.Mall-shop-nav a:hover{
+	color: #00C3F5;
+    border-bottom: 2px solid #00C3F5;
+}*/
+.Mall-shop-nav .changecolor{
+    color: #00C3F5;
+    border-bottom: 2px solid #00C3F5;
+}
+#changecolor{
+	color: #00C3F5;
+    border-bottom: 2px solid #00C3F5;
+}
+.mall-more{
+	float: right;
+	color: #333;
+}
+.Mall-shop-image{
+	width: 1248px;
+    margin-top: 40px;
+    margin-bottom: 35px;
+    background: #00C3F5;
+}
+.Mall-shop-image li {
+	margin-right: 6px;
+	background: #FFFFFF;
+	float: left;
+	margin-bottom: 10px;
+	position: relative;
+}
+.Mall-shop-image li a{
+	display:block;
+	height: 338px;
+	width: 240px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px #EEE solid;
+}
+#Mall-shop-ad{
+	height: 338px;
+	width: 240px;
+}
+.Mall-product-img{
+	margin-top: 40px;
+	display: block;
+	width: 180px;
+	height: 180px;
+	margin-bottom: 40px;
+}
+.Mall-shop-image li a h4{
+	font-weight: normal;
+	 font-size: 15px;
+	 color: #555757;
+}
+.Mall-shop-image li a h5{
+	font-weight: normal;
+	 font-size: 12px;
+	 color: #999;
+	 margin: 5px 0;
+}
+.Mall-shop-image li:hover{
+	top: -1px;
+	height: 340px;
+	box-shadow:4px 3px 4px #AAAAAA, -3px 1px 5px #aaa;
+}
+

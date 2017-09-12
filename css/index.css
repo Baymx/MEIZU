@@ -1,0 +1,372 @@
+.main{
+	width: 100%;
+}
+/*主体头部链接*/
+.mian-header-link{
+	width: 100%;
+	height: 376px;
+	overflow: hidden;
+}
+.mian-header-link a{
+	margin-top:76px;
+	display: block;
+	height: 300px;
+	width: 170px;
+	margin-left: 20px;
+	text-align: center;
+	color: #BABABA;
+	margin-right: 160px;
+	float: left;
+	font-size: 15px;
+}
+.mian-header-link a h4{
+	margin: 20px auto;
+	color: #565656;
+	font-size: 20px;
+}
+#no-magin{
+	margin-right: 0px;
+}
+.mian-middle-link{
+	height: 382px;
+	background: #F5F5F5;
+	
+}
+/*分类商品链接*/
+.link-BraceletAd {
+	height: 410px;
+	width: 620px;
+	float: left;
+}
+.link-BraceletAd a{
+	position: relative;
+	display: block;
+	height: 410px;
+	width: 620px;
+	top: -28px;
+}
+/*手环广告链接*/
+.classify-link{
+	float: right;
+	height: 382px;
+	width: 620px;
+	padding-top: 90px;
+}
+.classify-link li{
+	float: left;
+    width: 25%;
+    height: 135px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.classify-link li a{
+	color: #515151;
+}
+.classify-link li img{
+	margin-bottom: 15px;
+}
+/*手机滑动动画*/
+.phone-animation{
+	width: 100%;
+	height: 537px;
+	background: #fff;
+	padding-top: 104px
+}
+.phone-animation ul {
+    width: 98%;
+    height: 520px;
+    margin: 0 auto;
+ }
+.phone-animation ul li{
+ 	text-align: center;
+    float: left;
+   
+}
+.phone-animation ul a{
+	position: relative;
+    float: left;
+    margin-right: 100px;
+    width: 234px;
+    height: 533px;
+    display: block;
+}
+ .phone-animation ul .big-phone-img{
+	width: 208px;
+    height: 435px;
+    position: relative;
+    margin: 0 auto;
+}
+.big-phone-img img{
+	width: 208px;
+    border-radius: 20px;
+    min-height: 418px;
+}
+.big-phone-img .after{
+	position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.big-phone-img .before{
+	position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.phone-info {
+    line-height: 20px;
+    color: #666;
+    font-size: 14px;
+    padding-top: 28px;
+    display: block;
+} 
+.phone-info span{
+	display: block;
+	margin-bottom: 4px;
+}
+.phone-info em{
+	display: block;
+    padding-top: 2px;
+    color: #f0415f;
+    text-indent: -5px;
+}
+/*手机点击切换图*/
+.Switching-figure{
+	height: 400px;
+	width: 1280px;
+	overflow: hidden;
+	position: relative;
+    padding: 65px 0 50px
+}
+.figure{
+	
+	height:360px;
+	width: 3810px;
+	background: #FFF;
+	position: absolute;
+	left: 0;
+}
+.figure li a{
+	position: relative;
+    float: left;
+    margin-right: 50px;
+    width: 280px;
+    height: 350px;
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+}
+.figure li a img{
+	height: 280px;
+	width: 280px;
+	display: block;
+}
+.figure .figurephone-info {
+    line-height: 20px;
+    color: #666;
+    font-size: 14px;
+    display: block;
+} 
+.figurephone-info span{
+	display: block;
+	margin-bottom: 4px;
+}
+.figurephone-info em{
+	display: block;
+    padding-top: 2px;
+    color: #f0415f;
+    text-indent: -5px;
+}
+.figure-left{
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	background: #333;
+	opacity: 0.3;
+	position: absolute;
+	top: 180px;
+	left:50px;
+	display: none;
+	z-index: 10;
+}
+.figure-left img{
+	height: 60px;
+	width: 60px;
+}
+.figure-right{
+	display: none;
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	background: #000;
+	opacity: 0.1;
+	position: absolute;
+	top: 180px;
+	left:1150px;
+	z-index: 10;
+}
+.figure-right img{
+	height: 60px;
+	width: 60px;
+}
+.dian{
+	height: 20px;
+	width: 70px;
+	position: absolute;
+	z-index: 20;
+	left: 50%;
+	margin-left: -35px;
+	bottom: 20px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.dian li{
+	height: 10px;
+	width: 10px;
+	background: #ccc;
+	border-radius:50% ;
+}
+.dian li.active{
+	background: #333;
+}
+/*触摸照片*/
+.Touch-photo{
+	margin: 0 auto;
+	width: 1280px;
+	border-top: 1px #ccc solid;
+	
+}
+.Touch{
+	width: 1240px;
+	padding-top:30px;
+	overflow: hidden;
+	margin: 0 auto;
+	
+}
+.Touch li{
+	float: left;
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 75px;
+	margin-bottom: 40px;
+}
+.Touch li a{
+	display: block;
+}
+.small-phone-img{
+	height: 240px;
+	width: 240px;
+	position: relative;
+}
+.small-phone-img img{
+	border-radius: 5px;
+	background: #FFFFFF;
+	position: absolute;
+	height: 240px;
+	width: 240px;
+}
+/*服务中心*/
+.service-center{
+	height: 280px;
+	width: 1280px;
+	display: flex;
+	justify-content: space-around;
+	
+}
+.service-center a{
+	display: block;
+	overflow: hidden;
+	height: 280px;
+	width: 426px;
+}
+.service-center img{
+	margin-left: -100px;
+}
+/*服务*/
+.service{
+	width: 1280px;
+	height: 220px;
+	padding: 66px 0;
+	box-sizing: border-box;
+}
+.service ul{
+	width: 1240px;
+    margin: 0 auto;
+}
+.service ul li{
+	text-align: center;
+	float: left;
+	display: flex;
+	justify-content: space-around;
+	margin-right: 130px;
+}
+.service a{
+	color: #515151;
+}
+/*bbs 论坛中心*/
+.bbs-center{
+	height: 578px;
+	box-sizing: border-box;
+	width: 1280px;
+	background: #F4F4F4;
+	padding-top:70px ;
+}
+.bbs-title{
+	text-align: center;
+	color: #333333;
+}
+.bbs-title p{
+	margin: 20px 0;
+	color: #999999;
+}
+.bbs-title a{
+	color: #4CB9F2;
+}
+/*bbs论坛链接*/
+.bbs-link{
+	margin-top: 66px;
+	height: 310px;
+	width: 1280px;
+}
+.bbs-link a{
+	display: block;
+	float: left;
+	margin-left: 10px;
+	margin-right: 15px;
+}
+/*配件 吸顶效果*/
+.accessory-nav{
+	width: 1280px;
+	height: 70px;
+	position: absolute;
+	display: none;
+	z-index: 100;
+	background: #FFf;
+}
+.accessory-nav li{
+	height: 70px;
+	float: left;
+	margin-left:10px ;
+	margin-right: 40px;
+	position: relative;
+	margin-top: 25px;
+}
+.accessory-nav li a{
+	color: #333333;
+}
+.accessory-nav li a:hover{
+	color: #4FC6F7;
+}
+.accessory-nav li:hover i{
+	display: block;
+}
+.accessory-nav i{
+	display: none;
+	position: absolute;
+    height: 2px;
+    background: #00c3f5;
+    width: 100%;
+    left: 0;
+    bottom: 35px;
+}

@@ -1,0 +1,11 @@
+﻿/*整体初始化*/
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img hr{ margin:0; padding:0; }
+fieldset, img { border:none; }
+img{display: block;}
+address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+ul, ol { list-style:none; } 
+a,a:hover{text-decoration: none;}
+html { overflow:-Scroll;
+	overflow-x:hidden;
+	font-family: "微软雅黑","Microsoft Yahei",Arial,Helvetica,sans-serif,"宋体";
+    font-size: 14px;}

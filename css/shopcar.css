@@ -1,0 +1,169 @@
+.shopcar-header{
+	width: 1240px;
+	height: 96px;
+	padding-top: 20px;
+	background: #FFFFFF;
+	margin-left:12px ;
+	box-sizing: border-box;
+}
+.shopcar-logo{
+	float: left;
+	margin-left: 30px;
+}
+.shopcar-logo i{
+	color: #32A5E7;
+    font-size: 25px;
+}
+.shopcar-list {
+	float: left;
+	margin-left: 30px;
+}
+.shopcar-list li{
+	float: left;
+	margin-right: 20px;
+	line-height: 30px;
+}
+.shopcar{
+	width: 1240px;
+	margin: 0 auto;
+}
+.cart-header{
+	height: 50px;
+    margin-top: 10px;
+    background-color: #fff;
+    color: #333;
+}
+.cart-header .cart-table-first{
+	border: 1px solid #EFEFEF;
+	height: 50px;
+}
+.cart-col-select{
+	padding-top:15px ;
+	width: 220px;
+    text-align: left;
+    padding-left: 45px;
+}
+.cart-col-name{
+	width: 270px;
+    text-align: left;
+}
+.cart-col-price {
+    width: 220px;
+    text-align: center;
+}
+.cart-col-number {
+    width: 200px;
+    text-align: center;
+}
+.cart-col-total {
+    width: 160px;
+    text-align: center;
+}
+.cart-col-ctrl {
+    width: 110px;
+    text-align: center;
+    padding-right: 40px;
+}
+.cartcheck{
+	height: 15px;
+	width: 15px;
+}
+.cart-col-select{
+	display: flex;
+	align-items: center;
+}
+
+.cart-col-select img{
+	height: 100px;
+	width: 100px;
+}
+.magin{
+	margin-right: 30px;
+}
+.cart-col-name a{
+	color: #333;
+}
+.cart-col-price b{
+	font-size: 16px;
+}
+.mz-adder{
+	height: 47px;
+	width: 196px;
+	display: flex;
+	justify-content: center;
+}
+.mz-adder a{
+	display: block;
+	height: 40px;
+	width: 40px;
+	border: 1px #CCCCCC solid;
+	text-align: center;
+	font-size:20px;
+	line-height: 40px;
+	color: #333;
+}
+.mz-adder span{
+	text-align: center;
+	line-height: 40px;
+	font-size: 15px;
+	display: block;
+	height: 40px;
+	width: 58px;
+	border-top: 1px #CCCCCC solid;
+	border-bottom: 1px #CCCCCC solid;
+}
+.cart-col-total p{
+	font-weight: bolder;
+    text-align: center;
+    font-size: 17px;
+    color: #e02b41;
+} 
+.cart-col-ctrl a{
+	display: block;
+	height: 24px;
+	width: 24px;
+	margin-left: 42%;
+	background: url(../img/icons.png) -25px -40px;
+}  
+.Settlement{
+	margin-top: 30px;
+	width: 1240px;
+	height: 70px;
+	margin-left: 12px;
+	align-items: center;
+	background: #FFFFFF;
+	box-sizing: border-box;
+} 
+.Settlement-left{
+	margin-left: 40px;
+	float: left;
+	height: 70px;
+	margin-top: 20px;
+}
+.Settlement-right{
+	margin-top: 20px;
+	float: right;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 100px;
+}
+.total-text{
+	float: left;
+	margin-right: 50px;
+}
+.total-red{
+	 color: #e02b41;
+	 font-size: 20px;
+}
+.Settlement-right a{
+	display: block;
+	height: 36px;
+	width: 100px;
+	float: right;
+	background: #00C3F5;
+	border-radius: 5px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 36px;
+}

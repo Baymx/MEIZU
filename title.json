@@ -1,0 +1,285 @@
+{
+	"meizu":{
+		"list": [
+		         {
+		        	"id"   : "meizu01",
+					"name" : "魅族 RPO 7",
+					"src"  : "meizu1.jpg"
+		         },
+		         {
+			        "id"   : "meizu02",
+					"name" : "魅族 RPO 6Plus",
+					"src"  : "meizu2.jpg"
+			      },
+			      {
+			        "id"   : "meizu03",
+					"name" : "魅族 RPO 6S",
+					"src"  : "meizu3.jpg"
+			       },
+			      {
+				    "id"   : "meizu04",
+					"name" : "魅族 RPO MX6",
+					"src"  : "meizu4.jpg"
+				   },
+				   {
+					"id"   : "meizu05",
+					"name" : "魅族 RPO 6",
+					"src"  : "meizu5.jpg"
+					},
+				   {
+						"id"   : "null",
+						"name" : "",
+						"src"  : "write.png"
+					}
+		 ]
+	},
+	"meilan":{
+		"list": [
+		         {
+		        	"id"   : "meilan01",
+					"name" : "魅族  Note6",
+					"src"  : "meilan1.jpg"
+		         },
+		         {
+		        	 "id"   : "meilan02",
+		        	 "name" : "魅蓝  A5",
+		        	 "src"  : "meilan2.jpg"
+			      },
+			      {
+			    	  "id"   : "meilan03",
+			    	  "name" : "魅蓝   E2",
+			    	  "src"  : "meilan3.jpg"
+			       },
+			      {
+			    	   "id"   : "meilan04",
+			    	   "name" : "魅蓝   5s",
+			    	   "src"  : "meilan4.jpg"
+				   },
+				   {
+					   "id"   : "meilan05",
+					   "name" : "魅蓝  Note5",
+					   "src"  : "meilan5.jpg"
+					},
+					{
+						"id"   : "meilan06",
+						"name" : "魅蓝  X",
+						"src"  : "meilan6.jpg"
+					},
+					{
+						"id"   : "meilan07",
+						"name" : "魅蓝  5",
+						"src"  : "meilan7.jpg"
+					},
+					{
+						"id"   : "meilan08",
+						"name" : "魅蓝  Max",
+						"src"  : "meilan8.jpg"
+					},
+					{
+						"id"   : "null",
+						"name" : "",
+						"src"  : "write.png"
+					}
+				   
+		 ]
+	},
+	"Headset":{
+		"list": [
+		         {
+		        	"id"   : "Headset01",
+					"name" : "魅蓝  EP52",
+					"src"  : "Headset1.jpg"
+		         },
+		         {
+		        	 "id"   : "Headset02",
+		        	 "name" : "魅族   Flow",
+		        	 "src"  : "Headset2.jpg"
+			      },
+			      {
+			    	  "id"   : "Headset03",
+			    	  "name" : "魅族蓝牙小音箱",
+			    	  "src"  : "Headset3.jpg"
+			       },
+			      {
+			    	   "id"   : "Headset04",
+			    	   "name" : "魅族EP2X",
+			    	   "src"  : "Headset4.jpg"
+				   },
+				   {
+					   "id"   : "Headset05",
+					   "name" : "魅族  EP51",
+					   "src"  : "Headset5.jpg"
+					},
+					{
+						"id"   : "Headset06",
+						"name" : "魅族 HD50",
+						"src"  : "Headset6.jpg"
+					},
+					{
+						"id"   : "null",
+						"name" : "",
+						"src"  : "write.png"
+					}
+				   
+		 ]
+	},
+	"parts":{
+		"list": [
+		         {
+		        	"id"   : "parts01",
+					"name" : "EVeryday 轻装系列",
+					"src"  : "parts1.jpg"
+		         },
+		         {
+		        	 "id"   : "parts02",
+		        	 "name" : "魅族手环",
+		        	 "src"  : "parts2.jpg"
+			      },
+			      {
+			    	  "id"   : "parts03",
+			    	  "name" : "智能手表 MIX",
+			    	  "src"  : "parts3.jpg"
+			       },
+			      {
+			    	   "id"   : "parts04",
+			    	   "name" : "音乐智能保护套",
+			    	   "src"  : "parts4.jpg"
+				   },
+				   {
+					   "id"   : "parts05",
+					   "name" : "魅族 盒子",
+					   "src"  : "parts5.jpg"
+					},
+					{
+						"id"   : "parts06",
+						"name" : "环窗智能保护套",
+						"src"  : "parts6.jpg"
+					},
+					{
+						"id"   : "parts07",
+						"name" : "路由器极速版",
+						"src"  : "parts7.jpg"
+					},
+					{
+						"id"   : "null",
+						"name" : "",
+						"src"  : "write.png"
+					}
+				   
+		 ]
+	},
+	"Recommend":{
+		"list": [
+		          {
+		        	"id"   : "meizuPRO7",
+					"name" : "魅族  PRO 7",
+					"price": "2880",
+					"word" : "6期免息 购机即助力免费午餐公益项目",
+					"src"  : [
+					          "img/Mall/POR7-1.jpg",
+					          "img/Mall/POR7-2.jpg",
+					          "img/Mall/POR7-3.jpg",
+					          "img/Mall/POR7-4.jpg"
+					         ]
+				   },
+				   {
+			        	"id"   : "meizuPRO7plus",
+						"name" : "魅族  PRO 7 Plus",
+						"price": "3580",
+						"word" : "6期免息 购机即助力免费午餐公益项目",
+						"src"  : [
+						          "img/Mall/POR7Plus-1.jpg",
+						          "img/Mall/POR7Plus-2.jpg",
+						          "img/Mall/POR7Plus-3.jpg",
+						          "img/Mall/POR7Plus-4.jpg"
+						         ]
+				   },
+				   {
+			        	"id"   : "meizuPRO6plus",
+						"name" : "魅族  PRO 6 Plus",
+						"price": "2699",
+						"word" : "特惠300元，购机享6期免息",
+						"src"  : [
+						          "img/Mall/PRO6Plus-1.jpg",
+						          "img/Mall/POR6Plus-2.jpg"
+						         ]
+				   },
+				   {
+			        	"id"   : "meizuPRO7SPlus",
+						"name" : "魅族  PRO 7 Plus",
+						"price": "2299",
+						"word" : "直降200元，仅售2299元 享6期免息",
+						"src"  : [
+						          "img/Mall/PRO6s-1.jpg",
+						          "img/Mall/PRO6s-2.jpg",
+						          "img/Mall/PRO6s-3.jpg"
+						         ]
+				   },
+				   {
+			        	"id"   : "mrilanNote5",
+						"name" : "魅蓝Note5",
+						"price": "988",
+						"word" : "礼盒含防爆膜及保护壳",
+						"src"  : [
+						          "img/Mall/Note5-1.jpg",
+						          "img/Mall/Note5-2.jpg",
+						          "img/Mall/Note5-3.jpg",
+						          "img/Mall/Note5-4.jpg"
+						         ]
+				 },
+				 {
+			        	"id"   : "mrilanNote6",
+						"name" : "魅蓝Note6",
+						"price": "1099",
+						"word" : "15天内发货 支持128G扩展",
+						"src"  : [
+						          "img/Mall/Note6-1.jpg",
+						          "img/Mall/Note6-2.jpg"
+						         ]
+				},
+		         
+				 {
+		        	"id"   : "meilanE2",
+					"name" : "魅蓝E2",
+					"price": "1299",
+					"word" : "6期免息 购机即助力免费午餐公益项目",
+					"src"  : [
+					          "img/Mall/E2-1.jpg",
+					          "img/Mall/E2-2.jpg",
+					          "img/Mall/E2-3.jpg"
+					         ]
+				   },
+				   {
+			        	"id"   : "meizu5s",
+						"name" : "魅蓝 5s",
+						"price": "999",
+						"word" : "32G版限量赠保护壳",
+						"src"  : [
+						          "img/Mall/5s-1.jpg",
+						          "img/Mall/5s-2.jpg",
+						          "img/Mall/5s-3.jpg"
+						         ]
+					   },
+					   {
+				        	"id"   : "meizu5",
+							"name" : "魅蓝 5",
+							"price": "999",
+							"word" : "1300W像素！指纹解锁长续航！",
+							"src"  : [
+							          "img/Mall/5-1.jpg",
+							          "img/Mall/5-2.jpg"
+							         ]
+					   },
+					   {
+				        	"id"   : "meizuE",
+							"name" : "魅蓝 E",
+							"price": "999",
+							"word" : "1300W像素！指纹解锁长续航！",
+							"src"  : [
+							          "img/Mall/E-1.jpg",
+							          "img/Mall/E-2.jpg"
+							         ]
+					   }
+		 ]
+	}
+}

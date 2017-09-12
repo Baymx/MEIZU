@@ -1,0 +1,658 @@
+{
+	"phone":{
+		"meizu":{
+			 "title":"魅族手机",
+			  "list":[
+				   {
+		        	"id"   : "meizuPRO7",
+					"name" : "魅族  PRO 7",
+					"price": "2880",
+					"word" : "6期免息 购机即助力免费午餐公益项目",
+					"src"  : [
+					          "img/Mall/POR7-1.jpg",
+					          "img/Mall/POR7-2.jpg",
+					          "img/Mall/POR7-3.jpg",
+					          "img/Mall/POR7-4.jpg"
+					         ]
+				   },
+				   {
+			        	"id"   : "meizuPRO7plus",
+						"name" : "魅族  PRO 7 Plus",
+						"price": "3580",
+						"word" : "6期免息 购机即助力免费午餐公益项目",
+						"src"  : [
+						          "img/Mall/POR7Plus-1.jpg",
+						          "img/Mall/POR7Plus-2.jpg",
+						          "img/Mall/POR7Plus-3.jpg",
+						          "img/Mall/POR7Plus-4.jpg"
+						         ]
+				   },
+				   {
+			        	"id"   : "meizuPRO6plus",
+						"name" : "魅族  PRO 6 Plus",
+						"price": "2699",
+						"word" : "特惠300元，惠后价格2699元，购机享6期免息",
+						"src"  : [
+						          "img/Mall/PRO6Plus-1.jpg",
+						          "img/Mall/POR6Plus-2.jpg"
+						         ]
+				   },
+				   {
+			        	"id"   : "meizuPRO6s",
+						"name" : "魅族  PRO 7 Plus",
+						"price": "2299",
+						"word" : "直降200元，仅售2299元 享6期免息",
+						"src"  : [
+						          "img/Mall/PRO6s-1.jpg",
+						          "img/Mall/PRO6s-1.jpg",
+						          "img/Mall/PRO6s-1.jpg"
+						         ]
+				   }
+				   ]
+		},
+	"meilan":{
+		 "title":"魅蓝手机",
+		  "list":[
+		          {
+			        	"id"   : "mrilanNote5",
+						"name" : "魅蓝Note5",
+						"price": "988",
+						"word" : "礼盒含防爆膜及保护壳",
+						"src"  : [
+						          "img/Mall/Note5-1.jpg",
+						          "img/Mall/Note5-2.jpg",
+						          "img/Mall/Note5-3.jpg",
+						          "img/Mall/Note5-4.jpg"
+						         ]
+				 },
+				 {
+			        	"id"   : "mrilanNote6",
+						"name" : "魅蓝Note6",
+						"price": "1099",
+						"word" : "15天内发货 标配版每周一10:00预售 支持128G扩展",
+						"src"  : [
+						          "img/Mall/Note6-1.jpg",
+						          "img/Mall/Note6-2.jpg"
+						         ]
+				},
+		         
+				 {
+		        	"id"   : "meilanE2",
+					"name" : "魅蓝E2",
+					"price": "1299",
+					"word" : "6期免息 购机即助力免费午餐公益项目",
+					"src"  : [
+					          "img/Mall/E2-1.jpg",
+					          "img/Mall/E2-2.jpg",
+					          "img/Mall/E2-3.jpg"
+					         ]
+				   },
+				   {
+			        	"id"   : "meizu5s",
+						"name" : "魅蓝 5s",
+						"price": "999",
+						"word" : "32G版限量赠保护壳",
+						"src"  : [
+						          "img/Mall/5s-1.jpg",
+						          "img/Mall/5s-2.jpg",
+						          "img/Mall/5s-3.jpg"
+						         ]
+					   },
+					   {
+				        	"id"   : "meizu5",
+							"name" : "魅蓝 5",
+							"price": "999",
+							"word" : "1300W像素！指纹解锁长续航！",
+							"src"  : [
+							          "img/Mall/5-1.jpg",
+							          "img/Mall/5-2.jpg"
+							         ]
+					   },
+					   {
+				        	"id"   : "meizuE",
+							"name" : "魅蓝 E",
+							"price": "999",
+							"word" : "1300W像素！指纹解锁长续航！",
+							"src"  : [
+							          "img/Mall/E-1.jpg",
+							          "img/Mall/E-2.jpg"
+							         ]
+					   },
+					   {
+				        	"id"   : "meizuX",
+							"name" : "魅蓝 X",
+							"price": "1499",
+							"word" : "9月4日10点开始限时折扣价，再赠EP21耳机",
+							"src"  : [
+							          "img/Mall/X-1.jpg",
+							          "img/Mall/X-2.jpg"
+							         ]
+					   },
+					   {
+				        	"id"   : "meizuMax",
+							"name" : "魅蓝 Max",
+							"price": "1699",
+							"word" : "领券限时立减300元",
+							"src"  : [
+							          "img/Mall/Max-1.jpg",
+							          "img/Mall/Max-2.jpg"
+							         ]
+					   }
+		          
+		         ]
+	}	       
+		        
+		         
+		        
+		
+	},
+	"Intelligence-equipment":{
+		"Healthy":{
+			 "title":"智能健康",
+			  "list":[
+			          {
+				        	"id"   : "cheng",
+							"name" : "魅族智能体脂秤",
+							"price": "988",
+							"word" : "精准测量 伴您塑身",
+							"src"  : [
+							          "img/Mall/cheng.jpg"
+							         ]
+					 },
+					 {
+				        	"id"   : "s7",
+							"name" : "支持3期免息",
+							"price": "299",
+							"word" : "乐心S7智能体脂秤",
+							"src"  : [
+							          "img/Mall/S7.jpg"
+							         ]
+					}
+			        ]
+		},
+		"Kitchen":{
+			 "title":"智能厨房",
+			  "list":[
+			          {
+				        	"id"   : "CILINE1.5",
+							"name" : "沁麟1.5L智能煲",
+							"price": "269",
+							"word" : "一键搞定饭菜汤 选它很靠谱 支持6期免息",
+							"src"  : [
+							          "img/Mall/1.5L.jpg"
+							         ]
+					 },
+					 {
+				        	"id"   : "CILINE2.5",
+							"name" : "沁麟2.5L靠谱煲",
+							"price": "299",
+							"word" : "一键搞定饭菜汤 无需翻锅不怕糊掉",
+							"src"  : [
+							          "img/Mall/2.5L.jpg"
+							         ]
+					}
+			        ]
+		},
+		"play":{
+			 "title":"智能娱乐",
+			  "list":[
+			          {
+				        	"id"   : "CILINE1.5",
+							"name" : "魅族盒子",
+							"price": "269",
+							"word" : "一键搞定饭菜汤 选它很靠谱 支持6期免息",
+							"src"  : [
+							          "img/Mall/box-2.jpg",
+							          "img/Mall/box-1.jpg"
+							         ]
+					 },
+					 {
+				        	"id"   : "CILINE2.5",
+							"name" : "魅族路由器",
+							"price": "299",
+							"word" : "一键搞定饭菜汤 无需翻锅不怕糊掉",
+							"src"  : [
+							          "img/Mall/rude.jpg"
+							         ]
+					}
+			        ]
+		}
+	},
+	"Intelligence-wear":{
+		"Bracelet":{
+			 "title":"手环",
+			  "list":[
+				   {
+		        	"id"   : "meizuBracelet",
+					"name" : "魅族手环",
+					"price": "229",
+					"word" : "腕间流动的心率专家",
+					"src"  : [
+					          "img/Mall/meizuBracelet.jpg"
+					         ]
+				   },
+				   {
+			        	"id"   : "ziza",
+						"name" : "乐心手环ziva W",
+						"price": "3580",
+						"word" : "陈伟霆专属色 微信互联 来电提醒 即时消息",
+						"src"  : [
+						          "img/Mall/zava-1.jpg",
+						          "img/Mall/zava-2.jpg"
+						         ]
+				   },
+				   {
+			        	"id"   : "MAMBO",
+						"name" : "乐心手环MAMBO",
+						"price": "89",
+						"word" : "微信互联 来电提醒 即时消息 睡眠监测 防水",
+						"src"  : [
+						          "img/Mall/MAMBO.jpg"
+						         ]
+				   },
+				   {
+			        	"id"   : "mambo",
+						"name" : "乐心运动手环mambo",
+						"price": "139",
+						"word" : "心率检测，震动亮屏",
+						"src"  : [
+						          "img/Mall/mambo-HR2.jpg",
+						          "img/Mall/mambo-HR1.jpg"
+						         ]
+				   }
+				   ]
+		},
+		"VR":{
+			 "title":"智能VR",
+			  "list":[
+				   {
+		        	"id"   : "vr",
+					"name" : "智能VR眼镜",
+					"price": "229",
+					"word" : "IMAX巨屏影院 360度全影视频",
+					"src"  : [
+					          "img/Mall/vr.jpg"
+					         ]
+				   }
+				   ]
+		}
+		
+	},
+	"sporting-facilities":{
+		"Handle":{
+			 "title":"游戏手柄",
+			  "list":[
+				   {
+		        	"id"   : "Q1",
+					"name" : " 新玩Q1酷玩版",
+					"price": "119",
+					"word" : "与手机适配性高 按键交互性强 蓝牙+2.4G无线连接",
+					"src"  : [
+					          "img/Mall/Q1.jpg"
+					         ]
+				   },
+				   {
+			        	"id"   : "XM-1",
+						"name" : "XM-1魅族定制版",
+						"price": "119",
+						"word" : "魅族熊猫色定制手柄 要游戏更要颜值 游戏更带感",
+						"src"  : [
+						          "img/Mall/MX1.jpg"
+						         ]
+					   }
+				   ]
+		},
+		"mouse":{
+			 "title":"游戏鼠键",
+			  "list":[
+				   {
+		        	"id"   : "V21",
+					"name" : " 雷柏 有线鼠标V21",
+					"price": "119",
+					"word" : "编织线材 镀金USB接口 防滑防汗设计",
+					"src"  : [
+					          "img/Mall/V21-1.jpg",
+					          "img/Mall/V21-2.jpg"
+					         ]
+				   },
+				   {
+			        	"id"   : "V26",
+						"name" : "电竞鼠标V26",
+						"price": "149",
+						"word" : "准确定位 7档dpi可调 磨砂握感",
+						"src"  : [
+						          "img/Mall/V26-1.jpg",
+						          "img/Mall/V26-2.jpg"
+						         ]
+					   }
+				   ]
+		},
+		"VR":{
+			 "title":"VR眼镜",
+			  "list":[
+				   {
+		        	"id"   : "NM-VR30",
+					"name" : "纽曼 NM-VR30",
+					"price": "59",
+					"word" : "佩戴舒适 人性化设计",
+					"src"  : [
+					          "img/Mall/VR30-1.jpg",
+					          "img/Mall/VR30-2.jpg"
+					         ]
+				   },
+				   {
+			        	"id"   : "暴风魔镜S1",
+						"name" : "暴风魔镜S1",
+						"price": "199",
+						"word" : "支持3期免息",
+						"src"  : [
+						          "img/Mall/VRS1.jpg"
+						         ]
+					   }
+				   ]
+		}
+		
+	},
+	"digital-video":{
+		"Headset":{
+			 "title":"耳机",
+			  "list":[
+				   {
+		        	"id"   : "ME20",
+					"name" : "ME20入耳式耳机",
+					"price": "199",
+					"word" : "享受 不绝于耳",
+					"src"  : [
+					          "img/Mall/ME20.jpg"
+					         ]
+				   },
+				   {
+			        	"id"   : "EP51",
+						"name" : "魅族 EP51",
+						"price": "229",
+						"word" : "臻享音质 自在运动",
+						"src"  : [
+						          "img/Mall/EP51-1.jpg",
+						          "img/Mall/EP51-2.jpg",
+						          "img/Mall/EP51-3.jpg",
+						          "img/Mall/EP51-4.jpg"
+						         ]
+					 },
+					 {
+				        	"id"   : "EP2X耳机",
+							"name" : "魅族 EP2X耳机",
+							"price": "129",
+							"word" : "契合声音的流动之美",
+							"src"  : [
+							          "img/Mall/EP2X-1.jpg",
+							          "img/Mall/EP2X-2.jpg"
+							         ]
+						   },
+						   {
+					        	"id"   : "HD50",
+								"name" : "魅族HD50",
+								"price": "339",
+								"word" : "清新简洁，有音质更有颜值",
+								"src"  : [
+								          "img/Mall/HD50-1.jpg",
+								          "img/Mall/HD50-2.jpg",
+								          "img/Mall/HD50-3.jpg"
+								         ]
+							   }
+				   ]
+		},
+		"voice":{
+			 "title":"音箱",
+			  "list":[
+				   {
+		        	"id"   : "meizuVoice",
+					"name" : "魅族蓝牙小音箱",
+					"price": "169",
+					"word" : "好音感 直达心灵",
+					"src"  : [
+					          "img/Mall/meizu-voice-1.jpg",
+					          "img/Mall/meizu-voice-2.jpg"
+					         ]
+				   },
+				   {
+			        	"id"   : "Beats pill",
+						"name" : "Beats pill",
+						"price": "1888",
+						"word" : "支持3期免息",
+						"src"  : [
+						          "img/Mall/Beates-1.jpg",
+						          "img/Mall/Beates-1.jpg"
+						         ]
+					   }
+		]
+		}
+		
+	},
+	"parts":{
+		"Data-line":{
+			 "title":"数据线",
+			  "list":[
+				   {
+		        	"id"   : "Type-C",
+					"name" : "Type-C数据线",
+					"price": "39",
+					"word" : "支持2A快速充电 耐用又放心",
+					"src"  : [
+					          "img/Mall/Type-C-1.jpg",
+					          "img/Mall/Type-C-2.jpg"
+					         ]
+				   },
+				   {
+			        	"id"   : "USB",
+						"name" : "USB金属数据线",
+						"price": "29",
+						"word" : "耐用 才好用",
+						"src"  : [
+						          "img/Mall/USB-1.jpg",
+						          "img/Mall/USB-1.jpg"
+						         ]
+					   }
+				   
+		]
+		}
+	},
+	"parts":{
+		"Data-line":{
+			 "title":"数据线",
+			  "list":[
+				   {
+		        	"id"   : "Type-C",
+					"name" : "Type-C数据线",
+					"price": "39",
+					"word" : "支持2A快速充电 耐用又放心",
+					"src"  : [
+					          "img/Mall/Type-C-1.jpg",
+					          "img/Mall/Type-C-2.jpg"
+					         ]
+				   },
+				   {
+			        	"id"   : "USB",
+						"name" : "USB金属数据线",
+						"price": "29",
+						"word" : "耐用 才好用",
+						"src"  : [
+						          "img/Mall/USB-1.jpg",
+						          "img/Mall/USB-1.jpg"
+						         ]
+					   }
+		]
+		},
+		"Portable-source":{
+			 "title":"移动电源",
+			  "list":[
+				   {
+		        	"id"   : "source-1",
+					"name" : "小黄人版移动电源",
+					"price": "199",
+					"word" : "萌宝新品 9月6日10点火热抢购",
+					"src"  : [
+					          "img/Mall/source.jpg"
+					         ]
+				   },
+				   {
+			        	"id"   : "source-2",
+						"name" : "移动电源标准版",
+						"price": "99",
+						"word" : "素雅百搭 颜值典范",
+						"src"  : [
+						          "img/Mall/source1.jpg"
+						         ]
+					   }
+		]
+		},
+		"Film":{
+			 "title":"保护套/后盖/贴膜",
+			  "list":[
+				   {
+		        	"id"   : "PRO 7",
+					"name" : "PRO 7 保护膜",
+					"price": "199",
+					"word" : "PRO 7 保护膜",
+					"src"  : [
+					          "img/Mall/PRO7Film-1.jpg",
+					          "img/Mall/PRO7Film-2.jpg"
+					         ]
+				   },
+				   {
+			        	"id"   : "PRO 7Puls",
+						"name" : "PRO 7Puls保护膜",
+						"price": "99",
+						"word" : "PRO 7Puls保护膜",
+						"src"  : [
+						          "img/Mall/PRO7PlusFilm-1.jpg"
+						         ]
+					   }
+		]
+		}
+		
+	},
+	"storage":{
+		"office ":{
+			 "title":"办公设备",
+			  "list":[
+				   {
+		        	"id"   : "N7200",
+					"name" : "雷柏有线键鼠套装",
+					"price": "69",
+					"word" : "镭雕键帽 耐磨耐用 防溅洒设计 提高使用寿命",
+					"src"  : [
+					          "img/Mall/N7200-1.jpg",
+					          "img/Mall/N7200-2.jpg"
+					         ]
+				   },
+				   {
+			        	"id"   : "N7200",
+						"name" : "雷柏有线轻薄键盘",
+						"price": "99",
+						"word" : "有线轻薄不锈钢金属机身 剪刀式按键 更好手感",
+						"src"  : [
+						          "img/Mall/NX1860.jpg"
+						         ]
+					   },
+					   {
+				        	"id"   : "V21",
+							"name" : " 雷柏 有线鼠标V21",
+							"price": "119",
+							"word" : "编织线材 镀金USB接口 防滑防汗设计",
+							"src"  : [
+							          "img/Mall/V21-1.jpg",
+							          "img/Mall/V21-2.jpg"
+							         ]
+						   },
+						   {
+					        	"id"   : "V26",
+								"name" : "电竞鼠标V26",
+								"price": "149",
+								"word" : "准确定位 7档dpi可调 磨砂握感",
+								"src"  : [
+								          "img/Mall/V26-1.jpg",
+								          "img/Mall/V26-2.jpg"
+								         ]
+							   }
+					   
+		]
+		}
+		
+	},
+	"peripheral-life":{
+		
+		"peripheral-life":{
+			 "title":"周边生活",
+			  "list":[
+				   {
+		        	"id"   : "doublebao",
+					"name" : "魅蓝 休闲包",
+					"price": "199",
+					"word" : "曲面一体式 多功能隔层 极简与线条之美",
+					"src"  : [
+					          "img/Mall/doublebag-1.jpg",
+					          "img/Mall/doublebag-2.jpg"
+					         ]
+				   },
+				   {
+			        	"id"   : "bao",
+						"name" : "魅蓝旅行包",
+						"price": "99",
+						"word" : "轻盈负重 细节开花",
+						"src"  : [
+						          "img/Mall/bag-1.jpg"
+						         ]
+					   }
+		]
+		},
+		"Mobile-lens":{
+			 "title":"手机镜头",
+			  "list":[
+				   {
+		        	"id"   : "LQ-025",
+					"name" : "猎奇LQ-025",
+					"price": "199",
+					"word" : "0.6x广角 10x微距 二合一",
+					"src"  : [
+					          "img/Mall/LQ-025.jpg"
+					         ]
+				   },
+				   {
+			        	"id"   : "LQ-027",
+						"name" : "猎奇LQ-027",
+						"price": "99",
+						"word" : "49mm单反0.45x广角微距 手机摄像头 二合一",
+						"src"  : [
+						          "img/Mall/LQ-027.jpg"
+						         ]
+					   }
+		]
+		},
+		"Selfie-stick":{
+			 "title":"自拍杆",
+			  "list":[
+				   {
+		        	"id"   : "MINi",
+					"name" : "MINi自拍杆",
+					"price": "49",
+					"word" : "轻巧Mini 自在随心",
+					"src"  : [
+					          "img/Mall/MiNi-1.jpg",
+					          "img/Mall/MiNi-2.jpg",
+					          "img/Mall/MiNi-3.jpg"
+					         ]
+				   },
+				   {
+			        	"id"   : "stick",
+						"name" : "魅族蓝牙自拍杆",
+						"price": "99",
+						"word" : "魅族蓝牙自拍杆",
+						"src"  : [
+						          "img/Mall/stick-1.jpg",
+						          "img/Mall/stick-2.jpg"
+						         ]
+					   }
+		]
+		}
+	} 
+}
