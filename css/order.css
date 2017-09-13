@@ -137,6 +137,9 @@ table{
 .Number{
 	color: #333;
 }
+.cancel-order{
+	color: #333;
+}
 .list-content{
 	display: block;
     width: 100%;
