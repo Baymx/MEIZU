@@ -1,24 +1,48 @@
 $("#header").load("public.html #header");
 $("#footer").load("public.html #footer");
 $(function(){
-	//鼠标触摸下拉菜单，出现遮罩层
-	$("#meizu").on("mouseover","li",function(){
-		var index= $(this).index();
-		$(this).parent().find("li").find("#mark").addClass("mark");
-		$(this).find("#mark").removeClass("mark");
-	});
-//	//购物车
-//	var phone=getCookie("phone");
-//	console.log(phone.length)
-//	$(".count").html(phone.length);
-});
 //鼠标触摸菜单出现下拉菜单
 	var Textcolor="";
 	$.ajax({
 		type:"get",
 		url:"./title.json",
 		success:function(res){
-			$(".menu li:has(div)").mouseenter(function(){
+			$(".menu li:has(div)").on({
+				mouseenter:function(){
+					Textcolor=$(".menu-li").find("a").css("color");
+					$(".menu-li").find("a").css("color","#000");
+					console.log(Textcolor)
+					$(this).children("div").stop().slideDown(800,function(){
+						if($(this).find("ul").find("li").length==0){
+							var name=$(this).find("ul").data("class");
+							var html="";
+							var arr=res[name].list;
+							for(var i  in arr ){
+								html =`<li class="drop-down-li">
+											<a>
+											<img src="img/title/${arr[i].src}"/>
+											<p>${arr[i].name}</p>
+											<span id="mark"></span>
+											</a>
+										</li>`;
+								$(this).find("ul").append(function(){
+									$(this).find("li").animate({"margin-left":25},1000)
+									return html;
+								});
+							}
+						}
+					}.bind(this));
+				},
+				mouseleave:function(){
+					$(this).children("div").stop().slideUp(800,function(){
+					$(this).find("ul").html("");
+					$(".menu-li").find("a").css("color",Textcolor);
+					Textcolor="";
+					console.log(Textcolor)
+				});
+				}
+			})
+			/*$(".menu li:has(div)").mouseenter(function(){
 				Textcolor=$(".menu-li").find("a").css("color");
 				$(".menu-li").find("a").css("color","#000");
 				$(this).children("div").stop().slideDown(800,function(){
@@ -48,10 +72,15 @@ $(function(){
 					$(".menu-li").find("a").css("color",Textcolor);
 					Textcolor="";
 				});
-			})
+			})*/
+			//鼠标触摸下拉菜单，出现遮罩层
+			$(".drop-down").on("mouseenter","li",function(){
+				$(this).parent().find("li").find("#mark").addClass("mark");
+				$(this).find("#mark").removeClass("mark");
+			});
 		}
 	});
-	
+	//定时器控制轮播图
 	var timer = setInterval(autoPlay,5000);
     var index = 0;
     function autoPlay(){
@@ -69,6 +98,19 @@ $(function(){
      		$(this).css("z-index",0).siblings().css({"z-index":1,"left":1920})
      	})
     }
+    /*$(".btn-nav li").mouseover(function(){
+    	clearInterval(timer);
+    	index=$(this).index()-1;
+    	autoPlay();
+    }).mouseout(function(){
+    	var timer = setInterval(autoPlay,5000);
+    })*/
+    	
+    
+});
+	
+	
+	
  //鼠标滑动偏移手机图片
 $("#phone—conf").on("mouseenter","a",function(){
 	$(this).find(".before").stop().animate({"left":50},500);

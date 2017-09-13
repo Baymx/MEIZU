@@ -122,10 +122,15 @@ function delCookie(){
 	}
 }
 
-});
-
 //提交账单结算付款
 $(".Submit-bill").click(function(){
+	var order={};
+	if($(".goods-checkbox:checked").length==0){
+		alert("未选择购买的物品")
+		return;
+	}
+	if(confirm("您确定要购买吗?")){
+		
 	$(".goods-checkbox:checked").each(function(){
 		var img =$(this).parent().parent().find(".goods-img").attr("src");
 		var name=$(this).parent().parent().find(".goods-name").html();
@@ -138,7 +143,6 @@ $(".Submit-bill").click(function(){
 		var path=$(this).parent().data("path");
 		var jname=$(this).parent().data("jname");
 		var id=$(this).parent().data("id");
-		console.log(jname)
 		var arr=[];
 		 order={
 			"img":img,
@@ -152,15 +156,24 @@ $(".Submit-bill").click(function(){
 			"id":id,
 			"JsonName":jname,
 			"path":path,
-			"time":new Date().toLocaleTimeString()
+			"time":new Date().toLocaleDateString(),
+			"orderNo":new Date().getTime()
 		}
+		 console.log($(this).parent()[0])
+		 delCookie();
+		$(this).parent().parent().remove();
+		
+		var cookie = getCookie("order");
+		arr=cookie;
+		arr.push(order);
+		setCookie("order",JSON.stringify(arr));
 	});
-	var cookie = getCookie("order");
-	console.log(cookie)
-	arr=cookie;
-	console.log(arr)
-	arr.push(order);
-	console.log(order)
-	setCookie("order",JSON.stringify(arr));
+	
+	
+	}
+	
+	
 	
 })
+});
+
