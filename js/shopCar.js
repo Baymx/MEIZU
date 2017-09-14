@@ -168,7 +168,7 @@ $(".Submit-bill").click(function(){
 		arr.push(order);
 		setCookie("order",JSON.stringify(arr));
 	});
-	
+	location.href="order.html";
 	
 	}
 	
