@@ -1,6 +1,7 @@
 
 $(function(){
-	var cookie = getCookie("order");
+//	var cookie = getCookie("order");
+	var cookie=JSON.parse(localStorage.getItem("order"));
 	var str="";
 	for(var i in cookie){
 		str+=`<tr class="trHead">
@@ -51,11 +52,13 @@ $(function(){
 	})
 	//删除cookie
 	function delCookie(no){
-		var getData=getCookie("order");
+//		var getData=getCookie("order");
+		var getData=JSON.parse(localStorage.getItem("order"))
 		for(var i in getData){
 			if(no==getData[i].orderNo){
 				getData.splice(i,1);
-				setCookie("order",JSON.stringify(getData));
+				localStorage.setItem('order',JSON.stringify(getData));
+//				setCookie("order",JSON.stringify(getData));
 			}
 		}
 	}

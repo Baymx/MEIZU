@@ -1,7 +1,8 @@
 
 
 $(function(){
-	var phone=getCookie("phone");
+	var phone=JSON.parse(localStorage.getItem("phone"));
+	console.log(phone)
 	var str="";
 	for(var i in phone){
 		str+=`<tr>
@@ -104,7 +105,8 @@ function changeCookie(){
 		if( color == phone[i].color && memory == phone[i].memory && name == phone[i].name){
 			//操作数组同时，也要改变cookie
 			phone[i].count=goodsCount;
-			setCookie("phone",JSON.stringify(phone));
+			localStorage.setItem('phone',JSON.stringify(phone));
+//			setCookie("phone",JSON.stringify(phone));
 		}
 	}
 }
@@ -117,7 +119,8 @@ function delCookie(){
 		if( color == phone[i].color && memory == phone[i].memory && name == phone[i].name){
 			phone.splice(i,1);
 			//操作数组同时，也要改变cookie
-			setCookie("phone",JSON.stringify(phone));
+			localStorage.setItem('phone',JSON.stringify(phone));
+//			setCookie("phone",JSON.stringify(phone));
 		}
 	}
 }
@@ -163,10 +166,13 @@ $(".Submit-bill").click(function(){
 		 delCookie();
 		$(this).parent().parent().remove();
 		
-		var cookie = getCookie("order");
-		arr=cookie;
+		var Data=JSON.parse(localStorage.getItem("order")?localStorage.getItem("order") : []);
+//		var cookie = getCookie("order");
+		console.log(Data)
+		arr=Data;
 		arr.push(order);
-		setCookie("order",JSON.stringify(arr));
+//		setCookie("order",JSON.stringify(arr));
+		localStorage.setItem('order',JSON.stringify(arr));
 	});
 	location.href="order.html";
 	

@@ -154,8 +154,37 @@ $(".add").click(function(){
 		"count":1
 	}
 	console.log(res);
+	var localData=JSON.parse(localStorage.getItem('phone')?localStorage.getItem('phone'):[]);
+	console.log(localData)
+	console.log(typeof(localData))
+	if(localData!=0){
+		arr = localData;
+		for(var i in arr){
+			if(res.netType == arr[i].netType && res.memory == arr[i].memory&&res.color == arr[i].color){
+					arr[i].count++;
+					flag = false;
+					break;
+				}
+		}
+		
+	}
+	if(flag){
+			arr.push(res);
+		}
+	localStorage.setItem('phone',JSON.stringify(arr));
+	alert("添加购物车成功!");
+	console.log(localStorage.getItem('phone'))
+})
+	
+//	
+	
+	
+	
+	
+	
+	
 	//当再次点击按钮时，cookie信息被覆盖  解决 ： 先取出cookie数据 存入到数组中，然后在把新增的商品存入到数组中
-	var cookieInfo = getCookie("phone");
+	/*var cookieInfo = getCookie("phone");
 	if( cookieInfo.length != 0 ){//表示cookie中有数据
 			arr = cookieInfo;
 			//点击相同商品时，需要做商品数量的累加    用当前点击的商品编号id   和  取出来的cookie的 数据中商品id做比较 发现有相等的，count++
@@ -172,4 +201,4 @@ $(".add").click(function(){
 		}
 	setCookie("phone",JSON.stringify(arr));
 	alert("添加购物车成功!");
-})
+})*/
